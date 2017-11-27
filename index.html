@@ -12,7 +12,7 @@
 	<header>
     	<div id="logo">
         	<img src="resources/images/ic-logo.svg" alt="Colmar Academy logo —  a lion icon">
-            <p><span id="boldlogo">Colmar</span> Academy</p>
+            <p><span id="boldlogo">Colmar</span>Academy</p>
         </div>
     	<nav id="desktop-menu">
         	<ul>
@@ -33,15 +33,18 @@
     </header>
     
     <main>
-    	<div class="section hero">
-        	<div class="feature" id="heroimg">
+    	
+        <div class="section hero">
+        	<div class="feature heroimg">
+        		<img src="resources/images/banner.jpg" alt="Colmar Academy students reading course books and taking notes">
             </div>
+            
             <div class="secondary cta">
-            	<h1>Learn something new every day.</h1>
-                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
-                <a href="#">Start here</a>
+              <h1>Learn something new <span id="highlight">every day</span></h1>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+              <a id="button" href="#">Start here</a>
             </div>
-        </div>
+      </div>
         
         <div class="section highlights">
         	
@@ -83,8 +86,8 @@
                         <img class="mobilehimg" src="resources/images/information-guest-lecture-mobile.jpg" alt="Speaker portrait: a gray-haired, bearded man wearing spectacles and a blue beret">
                     </div>
                     <div class="shortdesc">
-                        <h3>Our guest lecture</h3>
-                        <p>Join a keynote with Oliver Sack about music in medical treatment</p>
+                      <h3>Our guest lecture</h3>
+                      <p>Join a keynote with Oliver Sack about music in medical treatment</p>
                         <a href="#">Read more</a>
                     </div>
                 </div>
@@ -93,97 +96,120 @@
         
         <div class="section learning">
         	<h2>Start learning</h2>
-            <div id="disciplines">
-            	<div class="discipline engineering">
-                	<div class="courseimg">
-                    	<img src="resources/images/course-software.jpg" alt="Computer screens">
-                    </div>
-                    <div class="course">
-                    	<h3>Software engineering</h3>
-                        <h4>Courses</h4>
-                        <p>Web Development, Mobile Development, IoT, APIs</p>
-                    </div>
-                </div>
-                <div class="discipline art">
-                	<div class="courseimg">
-                    	<img src="resources/images/course-computer-art.jpg" alt="Student holding a smartphone">
-                    </div>
-                    <div class="course">
-                    	<h3>Computer art</h3>
-                        <h4>Courses</h4>
-                        <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
-                    </div>
-                </div>
-                <div class="discipline design">
-                	<div class="courseimg">
-                    	<img src="resources/images/course-design.jpg" alt="Photographer holding a camera">
-                    </div>
-                    <div class="course">
-                    	<h3>Design</h3>
-                        <h4>Courses</h4>
-                        <p>User Experience Design, User Research, Visual Design</p>
-                    </div>
-                </div>
-                <div class="discipline data">
-                	<div class="courseimg">
-                    	<img src="resources/images/course-data.jpg" alt="Laptop displaying a dashboard with charts">
-                    </div>
-                    <div class="course">
-                    	<h3>Data</h3>
-                        <h4>Courses</h4>
-                        <p>Data Science, Big Data, SQL, Data Visualization</p>
-                    </div>
-                </div>
-                <div class="discipline business">
-                	<div class="courseimg">
-                    	<img src="resources/images/course-business.jpg" alt="Chessboard">
-                    </div>
-                    <div class="course">
-                    	<h3>Business</h3>
-                        <h4>Courses</h4>
-                        <p>Product Development, Business Development, Startup</p>
-                    </div>
-                </div>
-                <div class="discipline marketing">
-                	<div class="courseimg">
-                    	<img src="resources/images/course-marketing.jpg" alt="User checking a smartwatch">
-                    </div>
-                    <div class="course">
-                    	<h3>Marketing</h3>
-                        <h4>Courses</h4>
-                        <p>Analytics, Content Marketing, Mobile Marketing</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="section thesis">
-        	<div class="feature urban">
-            <!--Add video info-->
-            <video>
-            <h3>Reimagine urban</h3>
-            <p class="quote">&ldquo;Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.&rdquo;</p>
-            </div>
             
-            <div class="secondary list">
-            	<div class="item fima">
-                    <div class="imginlist">
-                    	<img class="desktophimg" src="resources/images/thesis-fisma.jpg" alt="Designer sketching prototype ideas">
+            <div class="row">
+                    <div class="discipline engineering">
+                        <a href="#">
+                            <img src="resources/images/course-software.jpg" alt="Computer screens" class="courseimg">
+                            
+                            <div class="course">
+                                <h3>Software engineering</h3>
+                                <h4>Courses</h4>
+                                <p>Web Development, Mobile Development, IoT, APIs</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="shortdesc">
-                        <h3>Fisma: Design and Prototype</h3>
-                        <p>Designer showcase of new prototype product</p>
+                
+                    <div class="discipline art">
+                        <a href="#">
+                            <img src="resources/images/course-computer-art.jpg" alt="Student holding a smartphone" class="courseimg">
+                            
+                            <div class="course">
+                                <h3>Computer art</h3>
+                                <h4>Courses</h4>
+                                <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="discipline design">
+                        <a href="#">
+                            <img src="resources/images/course-design.jpg" alt="Photographer holding a camera" class="courseimg">
+                            
+                            <div class="course">
+                                <h3>Design</h3>
+                                <h4>Courses</h4>
+                                <p>User Experience Design, User Research, Visual Design</p>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 
-                <div class="item now">
-                    <div class="imginlist">
-                    	<img class="desktophimg" src="resources/images/thesis-now-and-then.jpg" alt="New York city skyline feauring the Empire State building">
+                <div class="row">
+                    <div class="discipline data">
+                        <a href="#">
+                            <img src="resources/images/course-data.jpg" alt="Laptop displaying a dashboard with charts" class="courseimg">
+                                
+                            <div class="course">
+                                <h3>Data</h3>
+                                <h4>Courses</h4>
+                                <p>Data Science, Big Data, SQL, Data Visualization</p>
+                            </div>
+                        </a>
                     </div>
-                    <div class="shortdesc">
-                        <h3>Now and then</h3>
-                        <p>Research study about New York</p>
+                
+                    <div class="discipline business">
+                        <a href="#">
+                            <img src="resources/images/course-business.jpg" alt="Chessboard" class="courseimg">
+                            
+                            <div class="course">
+                                <h3>Business</h3>
+                                <h4>Courses</h4>
+                                <p>Product Development, Business Development, Startup</p>
+                            </div>
+                        </a>
                     </div>
+                
+                    <div class="discipline marketing">
+                        <a href="#">
+                           <img src="resources/images/course-marketing.jpg" alt="User checking a smartwatch" class="courseimg">
+                            
+                            <div class="course">
+                                <h3>Marketing</h3>
+                                <h4>Courses</h4>
+                                <p>Analytics, Content Marketing, Mobile Marketing</p>
+                            </div>
+                        </a>
+                    </div>
+            	</div>
+        </div>
+        
+        <div class="containerr">
+        	<h2>Thesis exhibit</h2>
+            <div class="section thesis">
+                <div class="feature urban">
+                    <video src="resources/videos/thesis.mp4" controls autoplay muted loop>Sorry, your browser doesn&#8217;t support embedded videos. But don&#8217;t worry, you can <a href="resources/videos/thesis.mp4">download it</a> and watch it with your favorite video player.</video>
+                    <h3>Reimagine urban</h3>
+                    <p class="quote">&ldquo;Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula.&rdquo;</p>
+                	<a href="#">Read the thesis</a>
+                </div>
+                
+                <div class="secondary list">
+                    <a href="#">
+                        <div class="item fima">
+                            <div class="imginlist">
+                                <img class="desktophimg" src="resources/images/thesis-fisma.jpg" alt="Designer sketching prototype ideas">
+                            </div>
+                            
+                            <div class="shortdesc">
+                                <h3>Fisma: Design and Prototype</h3>
+                                <p>Designer showcase of new prototype product</p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href="#">
+                        <div class="item now">
+                            <div class="imginlist">
+                                <img class="desktophimg" src="resources/images/thesis-now-and-then.jpg" alt="New York city skyline feauring the Empire State building">
+                            </div>
+                            
+                            <div class="shortdesc">
+                                <h3>Now and then</h3>
+                                <p>Research study about New York</p>
+                            </div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
@@ -196,5 +222,5 @@
             <li><a href="#">Privacy</a></li>
         </ul>
     </footer>
-    
 </body>
+</html>
