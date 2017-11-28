@@ -2,14 +2,24 @@
 
 html {
 	font-size: 16px;
-	font-family: 
 	}
 	
-ul, .section, .feature, .secondary {
+ul, 
+.section, 
+.feature, 
+.secondary,
+.shortdesc,
+.row,
+.containerr,
+footer {
 	display: flex;
 	}
 	
-.feature, .secondary {
+.feature, 
+.secondary,
+.shortdesc,
+.learning,
+.containerr {
 	flex-direction: column;
 	}
 	 
@@ -26,6 +36,15 @@ ul, .section, .feature, .secondary {
 	margin-right: 1.5rem;
 	}
 	
+.feature img, 
+video, 
+.desktophimg,
+.courseimg {
+	width: 100%;
+	display: block;
+	height: auto;
+	}
+	
 .secondary {
 	padding-left: 0.5rem;
 	flex-direction: column;
@@ -35,12 +54,14 @@ ul, .section, .feature, .secondary {
 /* Add font */	
 h3 {
 	font-size: 1.8rem;
-	font-family: 
+	
 	}	
+
 
 /* Header */
 
-header, #logo {
+header, 
+#logo {
 	display: flex;
 	align-items: center;
 	}
@@ -61,22 +82,20 @@ header {
 	text-transform:uppercase;
 	font-size: 1.25rem;
 	margin: auto;
-	font-family: 
 	}
 	
 #boldlogo {
-	font-family: 
 	}
 	
 #desktop-menu li {
 	margin-left: 1rem;
 	font-size: 1.125rem;
-	font-family: 
 	}
 
 #mobile-menu {
 	display: none;
 	}
+
 
 /* Hero */
 
@@ -84,21 +103,19 @@ header {
 	padding-top: 2rem;
 	}
 	
-.heroimg img {
-	width: 100%;
-	display: block;
-	}
-
 .cta {
-	margin: auto 0;
-	padding-right: 6rem;
+	justify-content: center;
+	}
+	
+.cta h1, 
+.cta h3 {
+	margin-right: 6rem;
 	}
 	
 /* Add fonts */
 .hero h1 {
 	font-size: 3rem;
 	margin-bottom: 2rem;
-	font-family: ;
 	}
 	
 #highlight {
@@ -114,30 +131,22 @@ header {
 	text-align:center;
 	margin-top: 2rem;
 	font-size: 1.5rem;
-	font-family: ;
 	width: 20rem;
 	}
 	
 
-
 /* Highlights */
-
-.practicing {
-	
-	}
 	
 .practicing img {
-	display: block;
-	width: 100%;
 	margin-bottom: 2rem;
 	}
 
 /* add font */
 .practicing h2 {
 	font-size: 2.5rem;
-	margin-bottom: 1.5rem;
 	}
 	
+.practicing h2, 
 .quote {
 	margin-bottom: 1.5rem;
 	}
@@ -165,46 +174,36 @@ header {
 	width: 35%;
 	margin: 1rem;
 	}
-
-.desktophimg {
-	width: 100%;
-	display: block;
-	}
 	
 .shortdesc {
 	width: 65%;
 	padding: 0.5rem;
-	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	}
 	
-.shortdesc h3, p {
+.shortdesc h3, 
+p {
 	margin-bottom: 0.75rem;
 	}
 	
 	/* Add font */
 .shortdesc p {
-	font-family: ;
+	
 	}
 
 .shortdesc a {
 	color: #2693DC;
 	}
 
+
 /* Start learning */
 
-.learning {
-	flex-direction: column;
-	}
-	
 .learning h2 {
 	font-size: 2.5rem;
 	margin: 0 auto 1.5rem;
 	}
 
 .row {
-	display: flex;
 	justify-content: space-around;
 	margin: 0.5rem 4.5rem 1.5rem 2.5rem;
 	}
@@ -215,33 +214,22 @@ header {
 	background-color: white;
 	}
 	
-.engineering, .data {
+.engineering, 
+.data {
 	margin-left: 0;
-	}
-	
-.courseimg {
-	width: 100%;
-	display: block;
 	}
 	
 .course {
 	padding: 1rem 1rem 1.5rem 1rem;
 	}
 	
-.course h3 {
-	margin-bottom: 0.5rem;
-	}
-	
+.course h3,
 .course h4 {
 	margin-bottom: 0.5rem;
 	}
+	
 
 /* Thesis exhibit */
-
- .containerr {
-	 display: flex;
-	 flex-direction: column;
-	 }
  
  .containerr h2 {
 	 font-size: 2.5rem;
@@ -252,25 +240,20 @@ header {
 	flex-direction: column;
 	}
 
- video {
-    width: 100%;
-    height: auto;
-}
-
 .urban h3 {
 	margin: 1.5rem 0 0.5rem; 
 	}
 
 .urban a {
 	color: #2693DC;
+	margin-bottom: 3rem;
 	}
 
 /* Footer */
 
 footer {
 	border-top: 1px solid #C5C8CA;
-	padding: 1rem 1.5rem 4rem 1.5rem; 
-	display: flex;
+	padding: 3rem 1.5rem 1rem 1.5rem; 
 	justify-content: space-between;
 	}
 	
