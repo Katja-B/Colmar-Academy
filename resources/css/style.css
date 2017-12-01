@@ -1,90 +1,10 @@
-/*fonts*/
-
-@font-face {
-  font-family: 'Pirata One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Pirata One'), local('PirataOne-Regular'), url(../fonts/Pirata_One/PirataOne-Regular.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-@font-face {
-  font-family: 'Tulpen One';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Tulpen One'), local('TulpenOne-Regular'), url(../fonts/Tulpen_One/TulpenOne-Regular.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 100;
-  src: local('Libre Franklin Thin'), local('LibreFranklin-Thin'), url(../fonts/Libre_Franklin/LibreFranklin-Thin.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 300;
-  src: local('Libre Franklin Light'), local('LibreFranklin-Light'), url(../fonts/Libre_Franklin/LibreFranklin-Light.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Libre Franklin'), local('LibreFranklin-Regular'), url(../fonts/Libre_Franklin/LibreFranklin-Regular.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 500;
-  src: local('Libre Franklin Medium'), local('LibreFranklin-Medium'), url(../fonts/Libre_Franklin/LibreFranklin-Medium.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 800;
-  src: local('Libre Franklin ExtraBold'), local('LibreFranklin-ExtraBold'), url(../fonts/Libre_Franklin/LibreFranklin-ExtraBold.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-@font-face {
-  font-family: 'Libre Franklin';
-  font-style: normal;
-  font-weight: 900;
-  src: local('Libre Franklin Black'), local('LibreFranklin-Black'), url(../fonts/Libre_Franklin/LibreFranklin-Black.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-@font-face {
-  font-family: 'Ubuntu';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url(../fonts/Ubuntu/Ubuntu-Regular.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-@font-face {
-  font-family: 'Voces';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Voces Regular'), local('Voces-Regular'), url(../fonts/Voces/Voces-Regular.ttf) format('truetype');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
 
 /* Universal styles */
 
 html {
 	font-size: 16px;
 	font-family: 'Libre Franklin', sans-serif;
+	font-weight: 300;
 	}
 	
 ul, 
@@ -140,20 +60,25 @@ h3 {
 	color: #0b0819;
 }
 
-/* Add font */	
-
-h2{
+h2 {
 	font-family: 'Voces', cursive;
+	font-size: 2.5rem;
 }
 
 h3 {
-	font-size: 1.8rem;
+	font-size: 1.6rem;
+	font-weight: 400;
 	font-family: 'Libre Franklin', sans-serif;
 	line-height: 1.2;
-	}	
+	}
+
+h4{
+	font-weight: 100;
+}
 
 p {
 	line-height: 1.5;
+	font-weight: 300;
 }
 
 main {
@@ -194,7 +119,6 @@ header {
 	width: auto;
 	}
 	
-/* Add fonts */
 #logo p {
 	text-transform:uppercase;
 	font-size: 1.25rem;
@@ -228,7 +152,8 @@ header {
 
 @media only screen and (max-width: 600px) {
 	
-	#desktop-menu {
+	#desktop-menu,
+	#lionlogo {
 		display: none;
 	}
 	
@@ -242,10 +167,6 @@ header {
 		justify-content: space-between;
 		align-items: center;
 		margin: 0 2rem;
-	}
-	
-	#lionlogo {
-		display: none;
 	}
 	
 }
@@ -258,8 +179,12 @@ header {
 	}
 	
 	#mobile-menu {
-		display: block;
 		width: 100%;
+	}
+	
+	#mobile-menu,
+	#lionlogo {
+		display: block;
 	}
 	
 	#mobile-menu ul {
@@ -267,10 +192,6 @@ header {
 		justify-content: space-between;
 		align-items: center;
 		margin: 0 2rem;
-	}
-	
-	#lionlogo {
-		display: block;
 	}
 }
 
@@ -290,15 +211,19 @@ header {
 	margin-right: 6rem;
 	}
 	
-/* Add fonts */
 .hero h1 {
 	font-size: 3rem;
 	margin-bottom: 2rem;
+	font-weight:500;
 	}
 	
 #highlight {
-	font-weight: bold;
+	font-weight: 800;
 	}
+
+.hero h3 {
+	font-weight:300;
+}
 	
 #button {
 	background-color: hsla(250,52%,39%,1.00);
@@ -323,11 +248,11 @@ header {
 	}
 	
 	.hero h1 {
-		font-size: 2.5rem
+		font-size: 2.5rem;
 	}
 	
 	.hero h3 {
-		font-size: 1.25rem
+		font-size: 1.25rem;
 	}
 } 
 
@@ -338,12 +263,12 @@ header {
 		padding: 0;
 	}
 	
-	.feature {
+	.feature,
+	.cta {
 		width: 100%;
 	}
 	
 	.cta {
-		width: 100%;
 		padding: 2rem 1rem 2rem 1rem;
 		align-items: center;
 	}
@@ -361,7 +286,7 @@ header {
 @media only screen and (max-width: 480px) {
 	
 	.section:nth-child(odd) {
-	background-color: white;
+		background-color: white;
 	}
 	
 	.section {
@@ -371,16 +296,12 @@ header {
 	
 	.cta {
 		background-color: hsla(218,34%,67%,0.3);
+		padding: 2rem 1rem 2rem 1rem;
+		margin: 0;
 	}
 	
 	.feature {
 		width: 100%;
-	}
-	
-	.secondary {
-		width: 100%;
-		padding: 2rem 1rem 2rem 1rem;
-		margin: 0;
 	}
 	
 	.hero h3 {
@@ -397,15 +318,11 @@ header {
 	}
 }
 
+
 /* Highlights */
 	
 .practicing img {
 	margin-bottom: 2rem;
-	}
-
-/* add font */
-.practicing h2 {
-	font-size: 2.5rem;
 	}
 	
 .practicing h2, 
@@ -417,6 +334,10 @@ header {
 	display: none;
 	}
 	
+#credit {
+	font-family: 'Noto Serif', serif;
+}
+
 .list {
 	margin: 0;
 	}
@@ -447,11 +368,6 @@ header {
 p {
 	margin-bottom: 0.75rem;
 	}
-	
-	/* Add font */
-.shortdesc p {
-	
-	}
 
 .shortdesc a {
 	color: hsla(250,80%,39%,0.80);
@@ -480,7 +396,6 @@ p {
 	
 	.secondary {
 		width: 100%;
-		padding: 1rem;
 		margin: 0;
 	}
 	
@@ -495,7 +410,8 @@ p {
 		padding: 2rem 1rem 2rem 1rem;
 	}
 	
-	.practicing {
+	.practicing,
+	.desktophimg {
 		display: none;
 	}
 	
@@ -510,21 +426,20 @@ p {
 	}
 	
 	.item:hover {
-	background-color: white;
-	}
-	
-	.desktophimg {
-		display: none;
+		background-color: white;
 	}
 	
 	.imginlist {
-		width: 100%;
 		margin: 0;
+	}
+	
+	.imginlist,
+	.mobilehimg {
+		width: 100%;
 	}
 	
 	.mobilehimg {
 		display: block;
-		width: 100%;
 	}
 	
 	.shortdesc {
@@ -673,10 +588,6 @@ p {
 		margin: 1rem 0 1.5rem;
 	}
 	
-	.containerr h2 {
-		
-	}
-	
 	.urban h3,
 	.urban p,
 	.urban a, 
@@ -701,6 +612,15 @@ footer {
 footer li {
 	margin-left: 1rem;
 	}
+
+footer a {
+	font-weight: 100;
+}
+
+footer a:hover {
+	font-weight: 900;
+	transition: font-weight 350ms ease-in 100ms;
+}
 
 @media only screen and (max-width: 480px) {
 	
